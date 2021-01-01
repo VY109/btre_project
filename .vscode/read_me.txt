@@ -100,3 +100,29 @@ contact_date: date
 
 [push to github]
 https://github.com/VY109/btre_project
+git init
+git add .
+git commit -m "first commit"
+-- up to here is local repository.
+use https
+git remote add origin https://github.com/VY109/btre_project.git
+git push -u origin main
+
+https://github.com/VY109/btre_project
+
+https://gist.github.com/bradtraversy/cfa565b879ff1458dba08f423cb01d71
+
+
+
+$ eval $(ssh-agent)
+Agent pid 16464
+
+$ ssh root@167.172.27.19
+root@ubuntu1:~#
+$ = local
+# = server
+u=djangoadmin pwd=SS........$
+root@ubuntu1:~# usermod -aG sudo djangoadmin
+postgres=# CREATE USER dbadmin WITH PASSWORD 'tm!@dm1n'; -- semicolon!!!!!!!!!!
+
+
