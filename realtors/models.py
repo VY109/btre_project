@@ -6,7 +6,7 @@ from datetime import datetime
 # duh i spelt photo phtot and upload to media folder as /&Y and not /%Y
 class Realtor(models.Model):
     name = models.CharField(max_length=200)
-    phtot = models.ImageField(upload_to='photos/&Y/%m/%d')
+    phtot = models.ImageField(upload_to='photos/%Y/%m/%d')
     description = models.TextField(blank=True)
     phone = models.CharField(max_length=20)
     email = models.CharField(max_length=50)

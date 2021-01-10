@@ -135,6 +135,7 @@ USE_TZ = True
 # from
 # C:\Users\NoodleCow\Projects\djangoproject\udemy - Traversy\btre_resources\btre_theme\dist\assets
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static') ?deprecated syntax?
+# python manage.py help
 # python manage.py collectstatic
 STATIC_ROOT = BASE_DIR / 'static'
 STATIC_URL = '/static/'
@@ -162,7 +163,10 @@ EMAIL_HOST_USER='yeonsapps@gmail.com'
 EMAIL_HOST_PASSWORD='$Adhanna5'
 EMAIL_USE_TLS=True
 
-try:
-    from .local_settings import *
-except ImportError:
-    pass
+# 
+
+# on prod
+# try:
+#     from .local_settings import *
+# except ImportError:
+#     pass
